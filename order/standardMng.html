@@ -16,7 +16,7 @@
         <div class="col">
         </div>
         <div class="col">
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <label for="dept_name" class="form-label">부서</label>
                 <select class="form-select" id="dept_name" required>
                     <option value="">솔루션개발본부</option>
@@ -32,27 +32,26 @@
                     부서를 선택해주세요.
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <label for="order_amt" class="form-label">주문가능금액</label>
                 <input type="text" class="form-control" id="order_amt" placeholder="170000" required>
                 <div class="invalid-feedback">
                     금액을 입력해주세요.
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <label for="user_amt" class="form-label">개인잔액</label>
                 <input type="text" class="form-control" id="user_amt" placeholder="20000" required>
                 <div class="invalid-feedback">
                     잔액을 입력해주세요.
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <label for="start_dt" class="form-label">주문가능기간</label>
                 <div>
-                    매월
-                    <input type="text" class="form-control" id="start_dt" placeholder="" required style="width:50px; display:inline;"> 일
+                    <input type="date" class="form-control" id="start_dt" placeholder="" required style="width:150px; display:inline;">
                     ~
-                    <input type="text" class="form-control" id="end_dt" placeholder="" required style="width:50px; display:inline;"> 일
+                    <input type="date" class="form-control" id="end_dt" placeholder="" required style="width:150px; display:inline;">
                 </div>
             </div>
         </div>
